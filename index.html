@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        p {
+            padding: 0.4rem 1rem;
+            margin-top: 1rem;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.5rem;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .good-news {
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-bottom: 0.6rem;
+            font-weight: 400;
+            line-height: 2rem;
+        }
+
+        .on-way {
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2rem;
+        }
+
+        .red-jumbotron {
+            padding: 2rem 1rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.8rem;
+            background-color: #b11618;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button-size {
+            width: 11rem;
+            margin-top: 1rem;
+        }
+
+         .review {
+            text-align: center;
+        }
+
+        .review-size {
+            width: 10rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .middle-info-heading {
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 500;
+            font-family: 'Roboto', sans-serif;
+            color: #b11618;
+            padding: 0 1rem;
+            margin-top: 1rem;
+            line-height: 2rem;
+        }
+
+        .grey-jumbotron {
+            padding: 1rem 1rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.8rem;
+            background-color: #545454;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        .facebook {
+            width: 0.9rem;
+            margin-right: 0.9rem;
+            margin-top: 0.7rem;
+        }
+
+        .instagram {
+            width: 1.5rem;
+            margin-right: 0.9rem;
+        }
+
+        .youtube {
+            width: 2.1rem;
+        }
+
+        .contact-info {
+            letter-spacing: 0.1rem;
+            text-align: center;
+            font-size: 0.8rem;
+            margin-bottom: 0.3rem;
+            font-weight: 300;
+            line-height: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <a href="https://www.welsh-tartan.com">
+            <img src="https://www.welsh-tartan.com/userfiles/image/original/walestartancentres21623.png"
+                alt="Wales Tartan Centres logo" width="130px">
+        </a>
+    </div>
+    <div class="red-jumbotron">
+        <div class="good-news">Great news, {{name}}...</div>
+        <div class="on-way">Your order is on the way!</div>
+        <div class="button">
+            <a title="Track your order"
+                href="https://www.ups.com/track?loc=en_GB&amp;tracknum={{tracking-number}}" target="_blank"><img
+                    src="https://www.welsh-tartan.com/userfiles/image/original/trackyourorder.png"
+                    alt="Track your order" class="button-size"></a>
+        </div>
+    </div>
+    <div class="center">
+        <p>The wait is <em>almost</em> over. We hope you're just as excited as we are and love the quality of our
+            products, because we would love for you to shop with us again!</p>
+    </div>
+    <div class="middle-info-heading">Made to measure?</div>
+    <div class="center">
+        <p>If you've ordered a kilt, skirt, waistcoat or anything you intend on wearing to an upcoming event, please
+            try
+            your garments on as soon as they arrive. Nearly all of our orders fit perfectly the first time around,
+            however if you need any alterations please contact us ASAP and we'll do everything we can to get you
+            looking
+            sharp in no time.</p>
+    </div>
+    <div class="middle-info-heading">Can we get five stars?</div>
+    <div class="center">
+        <p>If you're happy with your purchase, we would be so grateful if you could leave us a small review using
+            the
+            link below. We have customers all over the world, and we want the whole world to know! So please include
+            your country where possible.</p>
+        <p>In the very unlikely event that you're not happy with your purchase, please contact us ASAP and we'll do
+            everything we can to rectify the issue. We love happy customers (just look at our reviews)!</p>
+        <div class="review">
+            <a title="Leave a review" href="https://g.page/r/Ce5k19I6dFdTEAE/review"
+                target="_blank"><img src="https://www.welsh-tartan.com/userfiles/image/original/leaveareview.png"
+                    alt="Leave a review" class="review-size"></a>
+        </div>
+    </div>
+    <div class="middle-info-heading">Diolch (thank you)!</div>
+    <div class="center">
+        <p>
+            Thanks again for your kind custom. Don't forget to follow us on social media for our latest news and
+            offers.
+            Feel free to tag us in any pictures you share on Facebook or Instagram, we would love to see them!
+        </p>
+    </div>
+    <div class="grey-jumbotron">
+        <div class="contact-info">+44 (0)1792 474685</div>
+        <div class="center">
+            <a href="https://www.facebook.com/walestartancentres/"><img
+                    src="https://www.welsh-tartan.com/userfiles/image/original/facebook21623.png" alt="Facebook"
+                    class="facebook"></a>
+            <a href="https://www.instagram.com/walestartancentres/"><img
+                    src="https://www.welsh-tartan.com/userfiles/image/original/instagram21623.png" alt="Instagram"
+                    class="instagram"></a>
+            <a href="https://www.youtube.com/channel/UCF0hYko3cHGPaHV8wMU3pzw?"><img
+                    src="https://www.welsh-tartan.com/userfiles/image/original/youtube21623.png" alt="Youtube"
+                    class="youtube"></a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        p {
+            padding: 0.4rem 1rem;
+            margin-top: 1rem;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.5rem;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .good-news {
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-bottom: 0.6rem;
+            font-weight: 400;
+            line-height: 2rem;
+        }
+
+        .on-way {
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2rem;
+        }
+
+        .red-jumbotron {
+            padding: 2rem 1rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.8rem;
+            background-color: #b11618;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .tick {
+            text-align: center;
+        }
+
+        .tick-size {
+            width: 3rem;
+            margin-top: 1rem;
+        }
+
+        .mailing-list {
+            text-align: center;
+        }
+
+        .mailing-list-size {
+            width: 10rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .middle-info-heading {
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 500;
+            font-family: 'Roboto', sans-serif;
+            color: #b11618;
+            padding: 0 1rem;
+            margin-top: 1rem;
+            line-height: 2rem;
+        }
+
+        .grey-jumbotron {
+            padding: 1rem 1rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.8rem;
+            background-color: #545454;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        .facebook {
+            width: 0.9rem;
+            margin-right: 0.9rem;
+            margin-top: 0.7rem;
+        }
+
+        .instagram {
+            width: 1.5rem;
+            margin-right: 0.9rem;
+        }
+
+        .youtube {
+            width: 2.1rem;
+        }
+
+        .contact-info {
+            letter-spacing: 0.1rem;
+            text-align: center;
+            font-size: 0.8rem;
+            margin-bottom: 0.3rem;
+            font-weight: 300;
+            line-height: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <a href="https://www.welsh-tartan.com">
+            <img src="https://www.welsh-tartan.com/userfiles/image/original/walestartancentres21623.png"
+                alt="Wales Tartan Centres logo" width="130px">
+        </a>
+    </div>
+    <div class="red-jumbotron">
+        <div class="good-news">Diolch, {{name}}...</div>
+        <div class="on-way">We have your order!</div>
+        <div class="tick">
+            <img src="https://www.welsh-tartan.com/userfiles/image/original/check22623.png" alt="Tick"
+                class="tick-size">
+        </div>
+    </div>
+    <div class="center">
+        <p>Please find your order confirmation attached to this email. We encourage you to check this ASAP and notify us
+            immediately if anything is incorrect.</p>
+    </div>
+    <div class="middle-info-heading">Delivery</div>
+    <div class="center">
+        <p>Stock items are usually despatched within 1-2 working days. Made to order
+            products
+            usually carry lead times of a few weeks, but please note every product is different. We encourage you to
+            check the
+            'Delivery' section of each product you've ordered for accurate information.
+        </p>
+        <p>
+            Larger, made to measure garments normally have a minimum 6-8 week lead time unless you have selected our
+            express
+            delivery
+            service. Some made to measure products come with a longer lead time up to 14 weeks. We will study your
+            measurements very
+            carefully and contact you if something seems incorrect. If you have paid a 50% deposit, please note that
+            your card
+            information is not stored for security reasons and we will need to process your final payment manually. We
+            will contact
+            you by email and/or telephone to arrange this. If you chose our £75 deposit payment plan, we will be in
+            touch shortly to
+            explain what happens next.</p>
+        <p><strong>Please note</strong> - When ordering multiple products, your entire order will be despatched as one
+            single
+            shipment. Therefore, when ordering products with multiple lead times, please use the longest lead time as
+            your
+            reference. If you need particular items quicker than others, please get in touch and we can discuss your
+            delivery
+            requirements.</p>
+    </div>
+    <div class="middle-info-heading">Keep in touch</div>
+    <div class="center">
+        <p>
+            Want to know about any upcoming offers and promotions? Sign up to our mailing list below and be the first to
+            know! We don't bombard customers with emails every week, so don't worry... You won't get sick of us.
+        </p>
+        <div class="mailing-list">
+            <a title="Keep in touch" href="https://eepurl.com/dPy58b" target="_blank"><img
+                    src="https://www.welsh-tartan.com/userfiles/image/original/mailinglist.png" alt="Keep in touch"
+                    class="mailing-list-size"></a>
+        </div>
+    </div>
+    <div class="middle-info-heading">Need anything else?</div>
+    <div class="center">
+        <p>
+            If you have any questions or concerns regarding your order, or wish to add something before it's despatched,
+            please get in touch and we'll be happy to help!
+        </p>
+    </div>
+    <div class="grey-jumbotron">
+        <div class="contact-info">+44 (0)1792 474685</div>
+        <div class="center">
+            <a href="https://www.facebook.com/walestartancentres/"><img
+                    src="https://www.welsh-tartan.com/userfiles/image/original/facebook21623.png" alt="Facebook"
+                    class="facebook"></a>
+            <a href="https://www.instagram.com/walestartancentres/"><img
+                    src="https://www.welsh-tartan.com/userfiles/image/original/instagram21623.png" alt="Instagram"
+                    class="instagram"></a>
+            <a href="https://www.youtube.com/channel/UCF0hYko3cHGPaHV8wMU3pzw?"><img
+                    src="https://www.welsh-tartan.com/userfiles/image/original/youtube21623.png" alt="Youtube"
+                    class="youtube"></a>
+        </div>
+    </div>
+</body>
+
+</html>
